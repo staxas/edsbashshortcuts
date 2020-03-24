@@ -112,6 +112,6 @@ supgr [target ssh server]
 
 Shortcut variables
 
-sc=~/shortcuts.txt
+$sc=[name of this document]
 
 
