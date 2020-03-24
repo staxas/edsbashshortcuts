@@ -1,5 +1,6 @@
-Ed's aliases and functions
+Ed's bash aliases and functions
 --------------------------------------
+
 Show this file
 
 msc : manual of shortcuts
