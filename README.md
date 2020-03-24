@@ -1,4 +1,4 @@
-Edwin's aliases and functions
+Ed's aliases and functions
 --------------------------------------
 Show this file
 
