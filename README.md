@@ -61,7 +61,7 @@ cd.. : 'cd ..'
 
 ~ : 'cd ~', go to home root directory
 
-- : 'cd -', go to previous directory
+[hyphen] : 'cd -', go to previous directory
 
 --------------------------------------
 Go to directory and list files
