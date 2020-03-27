@@ -3,7 +3,7 @@
 #--------------------------------------
 # Basic
 
-#alias msc='less $sc' # set $sc variable to location of shortcut description document
+alias msc='less $sc' # set $sc variable to location of shortcut description document
 alias c='clear'
 alias h='history'
 alias grep='grep --color=auto'
