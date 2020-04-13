@@ -7,6 +7,7 @@ alias msc='less $sc' # set $sc variable to location of shortcut description docu
 alias c='clear'
 alias h='history'
 alias grep='grep --color=auto'
+#alias gh='history | grep '
 alias gp='ps aux | grep '
 alias gl='lsof | grep '
 alias dut='du -ch | grep total'
@@ -103,6 +104,12 @@ alias sba='source ~/.bash_aliases'
 alias sbr='source ~/.bashrc'
 
 #--------------------------------------
+# go to directories
+
+alias cdm='cd "$myd"'
+alias cdb='cd $bin'
+
+#--------------------------------------
 # upgrade via ssh
 
 supgr() {
@@ -113,14 +120,17 @@ supgr() {
 # count files
 
 cf () {
-if [[ -z "$1" ]]; then
-    ls | wc -l;
-else
-    i=0; 
-    for f in "${@:1:$#}"; do 
-      let i=$i+1; 
-    done; 
-    echo $i;
-fi;
+  if [[ -z "$1" ]]; then
+    find . -maxdepth 1 -type f -printf '.' | wc -c;     
+  else
+    find . -maxdepth 1 -type f -iname $1 -printf '.' | wc -c;
+  fi;
 }
 
+cft() {
+  if [[ -z "$1" ]]; then
+    find . -type f -printf '.' | wc -c;
+  else
+    find . -type f -iname "$1" -printf '.' | wc -c;
+  fi
+}
