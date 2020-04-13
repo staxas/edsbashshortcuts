@@ -3,14 +3,13 @@
 #--------------------------------------
 # Basic
 
-alias msc='less $sc' # set $sc variable to location of shortcut description document
+alias msc='less $sc'
 alias c='clear'
 alias h='history'
 alias grep='grep --color=auto'
-#alias gh='history | grep '
 alias gp='ps aux | grep '
 alias gl='lsof | grep '
-alias dut='du -ch | grep total'
+alias dut='du -ch | /bin/grep total | awk '"'"'{print $1}\'"'"''
 alias dud='du -d 1 -h'
 alias df='df -h | /bin/grep -e Filesystem -e /dev/sd'
 #--------------------------------------
