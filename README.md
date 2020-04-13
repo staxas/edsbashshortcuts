@@ -103,7 +103,9 @@ Admin commands
 
 upgr : sudo apt-get update && upgrade
 
-reboot : reboot
+reboot : reboot system
+
+shutdown : shutdown system
 
 --------------------------------------
 Upgrade via ssh

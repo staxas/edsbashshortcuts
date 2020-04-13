@@ -78,6 +78,7 @@ gh() {
 
 alias upgr="sudo apt-get update && sudo apt-get upgrade"
 alias reboot="sudo /sbin/reboot"
+alias shutdown="sudo /sbin/shutdown -h now"
 
 #--------------------------------------
 # copy with progress bar
@@ -92,6 +93,11 @@ cpv() {
 ff() {
     find . -iname $1 2>&1 | grep -v -e "Permission denied" -e "Invalid argument"
 }
+
+#--------------------------------------
+
+alias cdsg='cd ~/Documents/My\ Documents/Stuff/Stuff/Pictures/Suicide\ Girls/'
+alias ssg='cdsg && sshow . 9 && cd -'
 
 #--------------------------------------
 # edit and reload bash config files
