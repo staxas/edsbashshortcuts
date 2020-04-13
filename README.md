@@ -20,7 +20,9 @@ gl [pattern] : grep lsof, search in open files
 
 lp [port #] : lsof ports, list processes on port
 
-cf [optional file mask] : count files
+cf [optional file mask] : count files in current directory
+
+cft [optional file mask] : count files in current and all subdirectories
 
 dut : get total disk usage in current directory
 
