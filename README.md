@@ -94,7 +94,21 @@ cl5 : 'cl .5'
 --------------------------------------
 Basic git commands
 
+ga : git add
 
+gaa : git add all
+
+gcm : git commit message, enter commit message without quotes
+
+gps : git push
+
+gpl : git pull
+
+grs : git reset
+
+gst : git status
+
+gch : git commit history
 
 --------------------------------------
 Edit and reload bash config files
