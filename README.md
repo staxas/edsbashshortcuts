@@ -30,6 +30,12 @@ dud : get total disk usage in subdirectories of current directory
 
 df : hard disk file space usage
 
+cd : go to directory and push it to the directory stack
+
+p : pop, go to previous directory in the directory stack
+
+d : list directory stack
+
 ff [file pattern] : fast find with error filter
 
 cpv [source] [target] : copy with progress bar
@@ -84,6 +90,11 @@ cl3 : 'cl .3'
 cl4 : 'cl .4'
 
 cl5 : 'cl .5'
+
+--------------------------------------
+Basic git commands
+
+
 
 --------------------------------------
 Edit and reload bash config files
