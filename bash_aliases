@@ -155,5 +155,5 @@ alias gps='git push'
 alias gpl='git pull'
 alias grs='git reset'
 alias gst='git status'
-alias gch='git log'
+alias glg='git log'
 }
