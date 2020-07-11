@@ -108,7 +108,7 @@ grs : git reset
 
 gst : git status
 
-gch : git commit history
+glg : git log
 
 --------------------------------------
 Edit and reload bash config files
