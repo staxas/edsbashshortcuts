@@ -12,6 +12,11 @@ alias gl='lsof | grep '
 alias dut='du -ch | /bin/grep total | awk '"'"'{print $1}\'"'"''
 alias dud='du -d 1 -h'
 alias df='df -h | /bin/grep -e Filesystem -e /dev/sd'
+cd() {
+  pushd "$*" >/dev/null
+}
+alias p='popd'
+alias d='dirs'
 #--------------------------------------
 # list files
 
