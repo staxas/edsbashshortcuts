@@ -115,7 +115,7 @@ Edit and reload bash config files
 
 als : list .bash_aliases
 
-eba : edit and source .bash_aliases
+eda : edit and source .bash_aliases
 
 ebr : edit and source .bashrc
 
