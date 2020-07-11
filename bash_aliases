@@ -143,4 +143,17 @@ cft() {
   else
     find . -type f -iname "$1" -printf '.' | wc -c;
   fi
+  
+#--------------------------------------
+# git commands
+alias ga='git add'
+alias gaa='git add .'
+gcm() {
+  git commit -m "$*"
+}
+alias gps='git push'
+alias gpl='git pull'
+alias grs='git reset'
+alias gst='git status'
+alias gch='git log'
 }
