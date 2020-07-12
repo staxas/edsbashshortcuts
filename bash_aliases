@@ -110,23 +110,24 @@ alias sba='source ~/.bash_aliases'
 alias sbr='source ~/.bashrc'
 
 #--------------------------------------
-# count files
+# count files (ignores hidden files)
 
 cf () {
   if [[ -z "$1" ]]; then
-    find . -maxdepth 1 -type f -printf '.' | wc -c;     
+    find . -maxdepth 1 -type f -not -path '*/\.*' -printf '.' | wc -c;
   else
-    find . -maxdepth 1 -type f -iname $1 -printf '.' | wc -c;
+    find . -maxdepth 1 -type f -not -path '*/\.*' -iname $1 -printf '.' | wc -c;
   fi;
 }
 
 cft() {
   if [[ -z "$1" ]]; then
-    find . -type f -printf '.' | wc -c;
+    find . -not -path '*/\.*' -type f -printf '.' | wc -c;
   else
-    find . -type f -iname "$1" -printf '.' | wc -c;
+    find . -not -path '*/\.*' -type f -iname "$1" -printf '.' | wc -c;
   fi
-  
+}
+
 #--------------------------------------
 # git commands
 
