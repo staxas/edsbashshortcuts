@@ -146,6 +146,7 @@ cft() {
   
 #--------------------------------------
 # git commands
+
 alias ga='git add'
 alias gaa='git add .'
 gcm() {
