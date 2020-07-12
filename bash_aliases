@@ -17,6 +17,7 @@ cd() {
 }
 alias p='popd'
 alias d='dirs'
+
 #--------------------------------------
 # list files
 
@@ -100,11 +101,6 @@ ff() {
 }
 
 #--------------------------------------
-
-alias cdsg='cd ~/Documents/My\ Documents/Stuff/Stuff/Pictures/Suicide\ Girls/'
-alias ssg='cdsg && sshow . 9 && cd -'
-
-#--------------------------------------
 # edit and reload bash config files
 
 alias als='less ~/.bash_aliases'
@@ -112,19 +108,6 @@ alias eda='nano ~/.bash_aliases && source ~/.bash_aliases'
 alias ebr='nano ~/.bashrc && source ~/.bashrc'
 alias sba='source ~/.bash_aliases'
 alias sbr='source ~/.bashrc'
-
-#--------------------------------------
-# go to directories
-
-alias cdm='cd "$myd"'
-alias cdb='cd $bin'
-
-#--------------------------------------
-# upgrade via ssh
-
-supgr() {
-    ssh $1 -t bash -ci upgr;
-}
 
 #--------------------------------------
 # count files
