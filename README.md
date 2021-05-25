@@ -136,13 +136,19 @@ sbr : source .bashrc
 --------------------------------------
 Admin commands
 
-sss : sudo ssh
-
 upgr : sudo apt-get update && upgrade
 
 reboot : reboot system
 
 shutdown : shutdown system
+
+sss : sudo ssh
+
+sup [target ssh server] : run upgrade script on remote machine
+
+srb [target ssh server] : reboot remote machine 
+
+ssd [target ssh server] : shutdown remote machine
 
 --------------------------------------
 Upgrade via ssh
