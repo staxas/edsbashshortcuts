@@ -99,7 +99,7 @@ cd. / cd.. / .. : 'cd ..'
 
 ~ : 'cd ~', go to home root directory
 
--- : 'cd -', go to previous directory
+[dash] : 'cd -', go to previous directory
 
 --------------------------------------
 Go to directory and list files (all changes are pushed to stack)
@@ -108,7 +108,7 @@ cl : go to home directory and list contents
 
 cl [target directory] : go to target directory and list contents
 
-cl [.., .2-.5] : go to higher directory and list contents
+cl [.., .2 - .5] : go to higher directory and list contents
 
 cl. / cl.. : 'cl ..'
 
@@ -127,9 +127,9 @@ als : list .bash_aliases
 
 eba : edit and source .bash_aliases
 
-ebr : edit and source .bashrc
-
 sba : source .bash_aliases
+
+ebr : edit and source .bashrc
 
 sbr : source .bashrc
 
