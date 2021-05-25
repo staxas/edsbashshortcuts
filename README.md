@@ -61,7 +61,7 @@ rnb : open rednotebook
 
 lsd : list drives starting with /dev/sd*
 
-lsblk: detailed lsblk with device UUIDs
+lsblk / lsb: detailed lsblk with device UUIDs
 
 rst : reset output
 
@@ -78,7 +78,7 @@ ll. : ls hidden files detailed
 
 ld : list directories
 
-ld : list directories detailed
+lld : list directories detailed
 
 ld. : list hidden directories
 

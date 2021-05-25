@@ -42,6 +42,7 @@ gv() {
 }
 alias rnb='rednotebook &>/dev/null &'
 alias lsblk='lsblk -o "NAME,SIZE,FSTYPE,MOUNTPOINT,UUID" | grep -v loop'
+alias lsb='lsblk'
 alias lsd='ls /dev/sd*'
 alias mnt='mount | grep --color=never /dev/sd'
 alias rst='tput reset'
