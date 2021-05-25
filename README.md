@@ -87,9 +87,7 @@ lld. : list hidden directories detailed
 --------------------------------------
 Go to directory (all changes are pushed to stack)
 
-cd. / cd.. : 'cd ..'
-
-.. : 'cd ..'
+cd. / cd.. / .. : 'cd ..'
 
 .2 : 'cd ../..'
 
@@ -101,7 +99,7 @@ cd. / cd.. : 'cd ..'
 
 ~ : 'cd ~', go to home root directory
 
-- : 'cd -', go to previous directory
+-- : 'cd -', go to previous directory
 
 --------------------------------------
 Go to directory and list files (all changes are pushed to stack)
