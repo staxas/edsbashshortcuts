@@ -141,10 +141,5 @@ srb [target ssh server] : reboot remote machine
 ssd [target ssh server] : shutdown remote machine
 
 --------------------------------------
-Upgrade via ssh
-
-supgr [target ssh server]
-
---------------------------------------
 sc=~/shortcuts.txt
 
