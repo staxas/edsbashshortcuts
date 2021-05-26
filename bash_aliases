@@ -195,3 +195,4 @@ alias glg='git log'
 alias gss='git stash'
 alias gsa='git stash apply'
 
+sc=~/shortcuts.txt
