@@ -29,18 +29,6 @@ alias p5='popd >/dev/null && popd >/dev/null && popd >/dev/null && popd >/dev/nu
 alias d='dirs -v -l'
 alias dc='dirs -c'
 alias k9='kill -9'
-alias eds='gpg -d /home/edwin/Documents/Eds_Documents/Officials/Officieel\ archief\ Edwin\ Rietmeijer/s3cr3ts.txt.gpg > ~/s3cr3ts.txt && nano ~/s3cr3ts.txt && gpg -e ~/s3cr3ts.txt && mv ~/s3cr3ts.txt.gpg /home/edwin/Documents/My\ Documents/Officials/Officieel\ archief\ Edwin\ Rietmeijer/s3cr3ts.txt.gpg && rm ~/s3cr3ts.txt'
-alias lss='gpg -d /home/edwin/Documents/Eds_Documents/Officials/Officieel\ archief\ Edwin\ Rietmeijer/s3cr3ts.txt.gpg | less || tput reset'
-alias dp='dolphin . &>/dev/null &'
-alias co='/usr/bin/codium'
-alias co.='/usr/bin/codium .'
-kt() {
-  kate $1 &>/dev/null &
-}
-gv() {
-  gwenview $1 &>/dev/null &
-}
-alias rnb='rednotebook &>/dev/null &'
 alias lsblk='lsblk -o "NAME,SIZE,FSTYPE,MOUNTPOINT,UUID" | grep -v loop'
 alias lsb='lsblk'
 alias lsd='ls /dev/sd*'

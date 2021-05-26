@@ -47,18 +47,6 @@ k9 [process id] : force kill process
 
 wh : what happened? list system log
 
-kt [file] : open file with kate
-
-gv [file] : open file with gwenview
-
-dp : open dolphin in current directory
-
-co : open codium
-
-co. : open codium in current directory
-
-rnb : open rednotebook
-
 lsd : list drives starting with /dev/sd*
 
 lsblk / lsb: detailed lsblk with device UUIDs
