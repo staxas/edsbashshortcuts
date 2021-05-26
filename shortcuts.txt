@@ -98,19 +98,3 @@ sup [target ssh server] : run upgrade script on remote machine
 srb [target ssh server] : reboot remote machine 
 ssd [target ssh server] : shutdown remote machine
 
---------------------------------------
-
-Shortcut variables
-
-bin=/home/edwin/bin
-edd="/home/edwin/Documents/Eds_Documents/"
-
-router=root@192.168.1.1
-kodi=root@192.168.1.99
-rpiserv=pi@192.168.1.119
-pihole=pi@192.168.1.129
-debian=root@192.168.1.199
-
-sc=~/shortcuts.txt
-sd=/dev/mmcblk0
-
