@@ -16,7 +16,8 @@ lp [port #] : lsof ports, list processes on port
 cf [optional file mask] : count files in current directory
 cft [optional file mask] : count files in current and all subdirectories
 dut : get total disk usage in current directory
-dud : get total disk usage in subdirectories of current directorydf : hard disk file space usage
+dud : get total disk usage in subdirectories of current directory
+df : hard disk file space usage
 ff [file pattern] [case sensitivity]: fast find with error filter, if [case sensitivity] is empty, search case insensitive
 cpv [source] [target] : copy with progress bar
 (note: this uses rsync, so sourcedir/ will copy directory contents and sourcedir without trailing slash will copy directory)

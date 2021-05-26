@@ -25,7 +25,9 @@ cft [optional file mask] : count files in current and all subdirectories
 
 dut : get total disk usage in current directory
 
-dud : get total disk usage in subdirectories of current directorydf : hard disk file space usage
+dud : get total disk usage in subdirectories of current directory
+
+df : hard disk file space usage
 
 ff [file pattern] [case sensitivity]: fast find with error filter, if [case sensitivity] is empty, search case insensitive
 
